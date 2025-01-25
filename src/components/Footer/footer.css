@@ -1,0 +1,31 @@
+.footer-container {
+    background: linear-gradient(to right, #0f425a, #1e1e1e); /* گرادیان مدرن */
+    color: white;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.4);
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    position: relative;
+    margin: 0; /* حذف فاصله خارجی */
+    padding: 10px 0; /* تنظیم دقیق فاصله داخلی */
+  }
+  
+  .footer-container p {
+    margin: 0;
+    animation: pulseText 2s infinite;
+  }
+  
+  @keyframes pulseText {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.02);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  

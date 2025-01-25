@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+.home-container {
+  height: 80vh;
+  background: url("https://source.unsplash.com/random/1600x900?nature") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.welcome-text {
+    font-family: "Nosifer", cursive;
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: #0f425a; /* رنگ نفتی */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  }
+  
+
+.welcome-subtext {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+.contact-button {
+  background-color: #ff6f61;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #e63946;
+  transform: translateY(-5px);
+}
