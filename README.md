@@ -45,4 +45,8 @@ This project is a **ReactJS web application** designed to allow admins to manage
    ```bash
    git clone https://github.com/priestmoon50/NovinDev.git
 
-2 : npm run dev
+2 : Navigate to the project directory:   cd NovinDev
+
+3 : Install dependencies: npm install
+
+4 : npm run dev
