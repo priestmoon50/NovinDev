@@ -50,3 +50,26 @@ This project is a **ReactJS web application** designed to allow admins to manage
 3 : Install dependencies: npm install
 
 4 : npm run dev
+
+
+
+
+## Example Login Credentials
+
+Email: eve.holt@reqres.in
+Password: cityslicka
+
+
+
+
+## Endpoints Used
+Login: /api/login (POST)
+Users List: /api/users?page=? (GET)
+User Details: /api/users/:id (GET)
+Create User: /api/users (POST)
+Edit User: /api/users/:id (PUT)
+Delete User: /api/users/:id (DELETE)
+
+
+
+
